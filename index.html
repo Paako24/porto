@@ -7,7 +7,7 @@
     <title>Bagus Setiyo Portofolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
   <body>
     <nav id="desktop-nav">
@@ -37,7 +37,7 @@
         </div>
       </div>
     </nav>
-    <section id="profile">
+    <section id="profile" class="reveal">
       <div class="section__pic-container">
         <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
       </div>
@@ -79,7 +79,7 @@
         </div>
       </div>
     </section>
-    <section id="about">
+    <section id="about" class="reveal">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
@@ -132,7 +132,7 @@
         onclick="location.href='./#experience'"
       /> -->
     </section>
-    <section id="experience">
+    <section id="experience" class="reveal">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
@@ -258,7 +258,7 @@
         onclick="location.href='./#projects'"
       /> -->
     </section>
-    <section id="projects">
+    <section id="projects" class="reveal">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
@@ -325,8 +325,27 @@
               </button>
             </div>
           </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/shoes.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Shoes Shop</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/shoes.png')"
+                >
+              Look Closer
+              </button>
+            </div>
+          </div>
         </div>
       </div>
+      
       <!-- <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -334,7 +353,7 @@
         onclick="location.href='./#contact'"
       /> -->
     </section>
-    <section id="projects">
+    <section id="projects" class="reveal">
       <p class="section__text__p1">My Team</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
@@ -383,6 +402,24 @@
               </button>
             </div>
           </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/medimap.png"
+                alt="Reminder exe"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Medimap</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/medimap2.png')"
+              >
+               Look Closer
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       <!-- <img
@@ -392,7 +429,7 @@
         onclick="location.href='./#contact'"
       /> -->
     </section>
-    <section id="contact">
+    <section id="contact" class="reveal">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
